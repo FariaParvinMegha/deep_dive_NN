@@ -1,6 +1,6 @@
 # deep_dive_NN
 deep dive into the core of neural networks. lessons from Andrej Karpathy. The lesson goals are to learn Neural Network from scratch and code by code in-depth explanation. The final project is to **build an LLM from scratch.** using pytorch and tensor libraries.
-Useful for learning "**what happens inside of a neural network?**", this course also helps to build an intuitive analytical capability for NN learners. Own notes and comments are added in the code files.
+Useful for learning **what happens inside of a neural network?**, this course also helps to **build an intuitive analytical capability for NN learners and how is works under the hood**. Own notes and comments are added in the code files.
 
 # Lesson-1: Micrograd
 A tiny **Autograd engine**. performs Backpropagation (main function) on small Neural Networks. useful for learning how parameters of neural network is tuned and loss is minimized.
@@ -16,8 +16,7 @@ Building a **character-level language model on MLP**.
 Implementing activation and batchnormalization layers from scratch (spelled out in-depth codes and explanation).
 
 # Lesson-5:
-**Implement Backpropagation** on the MLP, atfirst **manually** then using the **micrograd** through the cross entropy loss, 2nd linear layer, tanh, batchnorm, 1st linear layer, and the embedding table(character mapping)
-outcome is that we get a **strong intuitive understanding about how gradients flow backwards and network optimization**. gives a base to **innovate optimization** techniques and **debug** the network.
+**Implement Backpropagation** on the MLP, atfirst **manually** then using the **micrograd** through the cross entropy loss, 2nd linear layer, tanh, batchnorm, 1st linear layer, and the embedding table(character mapping). The outcome is that we get a **strong intuitive understanding about how gradients flow backwards and network optimization**. gives a base to **innovate optimization** techniques and **debug** the network.
 
-
-
+# Lesson-6:
+Taking the 2 layer MLP and turn it into full deep Neural Network model with a tree structure inspired by **WaveNet**. Properly learning how Deep learning works under the hood.
